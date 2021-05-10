@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/accelerometre_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#809C27B0"
+            android:text="@string/accelerometre_title_txt" />
+
+        <TextView
+            android:id="@+id/accelerometre_x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            tools:text="test" />
+
+        <TextView
+            android:id="@+id/accelerometre_y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/accelerometre_z"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/accelerometre_precision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/gyroscope_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#809C27B0"
+            android:text="@string/gyroscope_title_txt" />
+
+        <TextView
+            android:id="@+id/gyroscope_x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/gyroscope_y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/gyroscope_z"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/gyroscope_precision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/lumiere_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#809C27B0"
+            android:text="@string/lumiere_title_txt" />
+
+        <TextView
+            android:id="@+id/lumiere_lumiere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/lumiere_precision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/champ_magnetique_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#809C27B0"
+            android:text="@string/champ_magnetique_title_txt" />
+
+        <TextView
+            android:id="@+id/champ_magnetique_x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/champ_magnetique_y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/champ_magnetique_z"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/champ_magnetique_precision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/pression_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#809C27B0"
+            android:text="@string/pression_title_txt" />
+
+        <TextView
+            android:id="@+id/pression"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            tools:text="test" />
+
+        <TextView
+            android:id="@+id/pression_precision"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            tools:text="test" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

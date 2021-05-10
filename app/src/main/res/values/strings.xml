@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TP9</string>
+    <string name="accelerometre_title_txt">ACCELEROMETRE:</string>
+    <string name="gyroscope_title_txt">GYROSCOPE:</string>
+    <string name="lumiere_title_txt">LUMIERE:</string>
+    <string name="champ_magnetique_title_txt">CHAMP MAGNETIQUE:</string>
+    <string name="pression_title_txt">PRESSION:</string>
+    <string name="informations_batterie_title_txt">INFORMATIONS SUR LA BATTERIE:</string>
+    <string name="battery_health_cold">cold</string>
+    <string name="battery_health_dead">dead</string>
+    <string name="battery_health_good">good</string>
+    <string name="battery_health_over_voltage">over voltage</string>
+    <string name="battery_health_overheat">overheat</string>
+    <string name="battery_health_unspecified_failure">failure</string>
+    <string name="battery_plugged_none">none</string>
+    <string name="battery_plugged_wireless">wireless</string>
+    <string name="battery_plugged_usb">usb</string>
+    <string name="battery_plugged_ac">ac</string>
+    <string name="battery_status_discharging">discharging</string>
+    <string name="battery_status_charging">charging</string>
+    <string name="battery_status_full">full</string>
+
+
+</resources>
